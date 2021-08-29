@@ -33,7 +33,7 @@
     margin: 0px;
     text-transform: uppercase;
     background: url("/assets/image/text.png");
-    -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     background-size: cover;
     background-position: center;
