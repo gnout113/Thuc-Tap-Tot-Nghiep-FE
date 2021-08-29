@@ -1,0 +1,7 @@
+{
+    "editor.formatOnPaste": true,
+    "prettier.printWidth": 240,
+    "prettier.tabWidth": 4,
+    "merge-conflict.autoNavigateNextConflict.enabled": true,
+    "editor.detectIndentation": false,
+}
