@@ -1,0 +1,10 @@
+<p-menubar styleClass="flex">
+    <ng-template pTemplate="start"> navbar </ng-template>
+    <ng-template pTemplate="end">
+        <p-tieredMenu [showTransitionOptions]="'150ms'" [hideTransitionOptions]="'150ms'" #menu [model]="items" [popup]="true"></p-tieredMenu>
+        <a #btn type="button" class="flex mr-3 cursor-pointer" (click)="menu.toggle($event)">
+            <p-avatar image="https://picsum.photos/200" styleClass="flex justify-content-start align-items-center" shape="circle"></p-avatar>
+        </a>
+    </ng-template>
+</p-menubar>
+<router-outlet></router-outlet>
